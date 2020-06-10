@@ -1,0 +1,152 @@
+@font-face {
+    font-family: Open Sans Bold, sans-serif;
+    src: url(/fonts/OpenSans-Bold.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+  
+@font-face {
+  font-family: Open Sans Regular, sans-serif;
+  src: url(/fonts/OpenSans-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+  * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: Open Sans, Arial, sans-serif;
+  overflow-x: hidden;
+  }
+
+.header_container {
+  background-color: #000000;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  position: relative;
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+  .header_container {
+    background-image: url(../img/football_767.jpg);
+  }
+}
+
+@media (min-width: 641px]) and (max-width: 960px) {
+  .header_container {
+    background-image: url(../img/football_1280.jpg);
+  }
+}
+
+@media (min-width: 961px) and (max-width: 1920px) {
+  .header_container {
+    background-image: url(../img/football_1920.jpg);
+  }
+}
+
+.header_container::after {
+  content: "";
+  background-color: #0a0e34;
+  opacity: 0.9;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.socials_list, .socials_link_app-store, .socials_link_google-play {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  list-style-type: none;
+    
+  display: flex;
+  justify-content: center;
+
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
+  margin-top: 1.2rem;
+  margin-left: 3rem;
+  color: #ffffff;
+
+  font-size: 0.87rem;
+}
+
+.socials_item {
+  border-radius: 50px;
+  background-color: #5e42b0;
+  width: 19.5rem;
+  height: 4.8rem;
+
+  z-index: 1;
+}
+
+.socials_item:nth-child(n+2) {
+  margin-left: 3.18rem;
+}
+
+.socials_title {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 1.56rem;
+}
+
+.socials_icon {
+  width: 2.56rem;
+  fill: #ffffff;
+  margin-right: 9.5rem;
+}
+
+.socials_name {
+  font-weight: bold;
+}
+
+.logo_icon {
+  fill: #ffffff;
+  position: relative;
+  z-index: 2;
+}
+
+.logo {
+  width: 11.94rem;
+  margin-right: auto; 
+  margin-left: auto;
+  padding-top: 2.56rem;
+}
+
+.header-title {
+  font-size: 5.62rem;
+  width: 80%;
+  margin: 15rem auto;
+
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+    
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  z-index: 2;
+}
+
+.header_title_1 {
+  text-align: left;
+}
+
+.header_title_2 {
+  text-align: right;
+}
+
