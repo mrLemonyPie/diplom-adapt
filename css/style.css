@@ -552,6 +552,7 @@ left: 0;
   .footer {
     background-image: url(../img/game_1280.jpg);
     text-align: center;
+    min-width: 100vw;
   }
 
   .footer_title {
@@ -715,25 +716,22 @@ left: 0;
     margin-left: -48rem;
   }
 
-  .aside {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
   .aside_card {
-    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-
+  
   .aside_content-title {
     font-size: 5rem;
-    padding-top: 12rem;
-    padding-left: 6rem;
+    padding-top: 7rem;
+    padding-left: -2rem;
   }
 
   .aside_title-number {
     font-size: 1.3rem;
     top: -1.4rem;
-    left: -2.2rem;
+    left: -4rem;
     padding: 2.8rem 3.5rem;
   }
 
@@ -745,7 +743,7 @@ left: 0;
 
   .aside_content-container {
     font-size: 1.5rem;
-    margin-left: 15rem;
+    margin-left: 9rem;
     margin-top: 6.5rem;
     padding-right: 5rem;
   }
