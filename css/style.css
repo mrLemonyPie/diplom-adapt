@@ -21,6 +21,7 @@
 body {
   font-family: Open Sans, Arial, sans-serif;
   overflow-x: hidden;
+  min-width: 320px;
   }
 
 .header_container {
@@ -127,6 +128,7 @@ body {
   content: "";
   position: absolute;
   background-color: #5e42b0;
+  border-radius: 25px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -147,20 +149,20 @@ body {
 .aside_content-title {
   text-transform: uppercase;
   color: #e7e7e7;
-  position: relative;
 }
 
 .aside_title-number {
   color: #ffffff;
   font-size: 1.5rem;
   background-color: #5e42b0;
-  position: relative;
+  position: absolute;
 }
 
 .aside_title-number::after {
   content: "";
   position: absolute;
   background-color: #8f7bc8;
+  border-radius: 25px;
   width: 1.6rem;
   height: 0.4rem;
   bottom: 0;
@@ -224,14 +226,12 @@ left: 0;
 
   .header_container {
     background-image: url(../img/football_767.jpg);
-    min-width: 200vw;
     text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 10rem;
+    padding: 2rem 1rem 6rem;
   }
 
   .logo {
-    width: 13rem;
+    width: 130px;
     fill: #ffffff;
     position: relative;
     z-index: 2;
@@ -240,9 +240,9 @@ left: 0;
   }
 
   .header-title {
-    font-size: 3.5rem;
-    width: 32.5rem;
-    padding-top: 16rem;
+    font-size: 2rem;
+    width: 90%;
+    margin-top: 6rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -254,95 +254,91 @@ left: 0;
 
   .socials_list {
     flex-wrap: wrap;
-    margin-top: 11rem;
+    margin-top: 7rem;
     margin-left: auto;
     margin-right: auto;
   }
 
   .socials_item {
     justify-content: center;
-    width: 35rem;
-    height: 3.4rem;
-    padding-top: 1rem;
+    width: 90%;
+    height: 2rem;
+    padding-top: 0.5rem;
   }
 
   .socials_item:nth-child(n+2) {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
   .socials_icon {
-    width: 3rem;
-    height: 2.5rem;
+    width: 20px;
+    margin-right: 5px;
+  }
+
+  .socials_link_google-play {
+    margin-left: -16px;
   }
 
   .socials_title {
-    font-size: 0.9rem;
+    font-size: 8px;
     text-align: left;
   }
 
   .main {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 1.5rem;
-    min-width: 200vw;
   }
 
   .img_article_footballer {
     position: absolute;
-    width: 120vw;
-    top: 79rem;
-    left: 9rem;
+    top: 700px;
+    left: 33%;
   }
 
   .img_article_basketballer {
     position: absolute;
-    width: 180vw;
-    top: 201rem;
-    left: 2rem;
+    top: 1820px;
+    left: 5%;
   }
 
   .article_title_first, .article_title_second  {
-    font-size: 6.3rem;
-    margin-left: 3rem;
-    margin-bottom: 5rem;
+    font-size: 50px;
+    margin-left: 10%;
   }
 
   .article_paragraph {
-    font-size: 1.8rem;
+    font-size: 15px;
   }
 
   .card_content_1, .card_content_2 {
-    padding: 6rem 3rem;
+    padding: 50px 30px;
   }
 
   .card_content_1:first-child, .card_content_2:first-child {
     background-color: #fafafa;
-    margin-top: 30rem;
+    margin-top: 20rem;
   }
 
   .article_title_2 {
-    font-size: 2.6rem;
-    padding-left: 2.5rem;
+    font-size: 23px;
     padding-bottom: 2.5rem;
     position: relative;
   }
 
   .title_number {
-    font-size: 1.7rem;
-    margin-top: 0.5rem;
-    margin-left: -2.7rem;
+    font-size: 14px;
+    margin-top: 5px;
   }
 
   .title_number::after {
-    width: 1.6rem;
-    height: 0.4rem;
+    width: 15px;
+    height: 4px;
     margin: -0.3rem auto;
   }
   
   .aside {
     display: flex;
     flex-wrap: wrap;
-    min-width: 200vw;
   }
 
   .aside_content {
@@ -350,58 +346,64 @@ left: 0;
   }
 
   .aside_content-title {
-    font-size: 3.5rem;
-    right: 8.5rem;
+    font-size: 28px;
+    margin-left: -50px;
   }
 
   .aside_title-number {
-    font-size: 1.7rem;
-    top: -8.5rem;
-    left: 11rem;
-    padding: 3.75rem 4.38rem;
+    font-size: 14px;
+    top: -76px;
+    left: 80px;
+    padding: 1.8rem 2rem;
   }
 
   .aside_title-number::after {
-    margin: 3.3rem auto;
+    margin: 1.6rem auto;
+    width: 15px;
+    height: 4px;
   }
 
   .aside_content-container {
-    font-size: 1.9rem;
+    font-size: 16px;
     padding: 1.5rem 2rem 8rem;
+  }
+
+  .be-active-img, .find-contact-img, .work-it-img {
+    width: 100%;
   }
   
   .footer {
     background-image: url(../img/game_767.jpg);
-    min-width: 200vw;
+    width: 100%;
     text-align: center;
-    padding-top: 10rem;
-    padding-bottom: 2rem;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
   }
 
   .footer_title {
-    padding-top: 9rem;
+    padding-top: 3rem;
   }
 
   .footer_title-1 {
-    font-size: 3.4rem;
+    font-size: 32px;
     color: #ffffff; 
     font-weight: bold; 
   }
 
   .footer_title-2 {
-    font-size: 1.2rem;
+    font-size: 14px;
     color: #9b8ec1;
   }
 
   .logo_footer {
-    width: 78px;
+    width: 72px;
     background: linear-gradient(#7656d6, #51379b);
     border-radius: 25px;
-    padding: 1.5rem 1.5rem;
+    padding: 1rem 1rem;
   }
 
   .footer .download_socials {
-    margin-bottom: 9rem;
+    margin-bottom: 5rem;
   }
 
 }
@@ -446,23 +448,24 @@ left: 0;
   }
 
   .socials_item {
-    width: 20rem;
-    height: 3rem;
+    width: 310px;
+    height: 50px;
     justify-content: center;
-    padding-top: 1rem;
+    padding-top: 10px;
   }
 
   .socials_item:nth-child(n+2) {
-    margin-left: 2rem;
+    margin-left: 20px;
   }
 
   .socials_icon {
-    width: 2.7rem;
-    height: 2.2rem;
+    width: 36px;
+    height: 42px;
+    margin-right: 10px;
   }
 
   .socials_title {
-    font-size: 0.7rem;
+    font-size: 14px;
     text-align: left;
     line-height: 0.9rem;
   }
@@ -480,8 +483,8 @@ left: 0;
   .img_article_footballer {
     position: absolute;
     left: -8rem;
-    top: 48rem;
-    width: 27rem;
+    top: 47rem;
+    width: 420px;
   }
 
   .article_paragraph {
@@ -514,9 +517,9 @@ left: 0;
 
   .img_article_basketballer {
     position: absolute;
-    top: 84rem;
+    top: 80rem;
     right: 0;
-    width: 22rem;
+    width: 380px;
   }
 
   .article_title_second {
@@ -613,12 +616,12 @@ left: 0;
   .header_container {
     background-image: url(../img/football_1920.jpg);
     width: 100%;
-    padding-top: 3rem;
-    padding-bottom: 5rem;
+    padding-top: 30px;
+    padding-bottom: 70px;
   }
 
   .logo {
-    width: 11rem;
+    width: 191px;
     fill: #ffffff;
     position: relative;
     z-index: 2;
@@ -627,9 +630,9 @@ left: 0;
   }
 
   .header-title {
-    font-size: 5rem;
-    width: 90rem;
-    margin: 10rem auto;
+    font-size: 90px;
+    width: 90%;
+    margin: 120px auto;
   }
 
   .header_title_1 {
@@ -646,9 +649,9 @@ left: 0;
   }
 
   .socials_item {
-    width: 19rem;
-    height: 3.5rem;
-    padding-top: 0.8rem;
+    width: 310px;
+    height: 60px;
+    padding-top: 10px;
   }
 
   .socials_item:nth-child(n+2) {
@@ -656,138 +659,153 @@ left: 0;
   }
 
   .socials_icon {
-    width: 3rem;
-    height: 2.8rem;
+    width: 42px;
+    height: 48px;
   }
 
   .socials_title {
-    font-size: 0.8rem;
+    font-size: 14px;
     text-align: left;
-    margin-left: 1rem;
-    line-height: 1rem;
+    margin-left: 16px;
+    line-height: 16px;
   }
 
   .article {
-    padding-top: 4rem;
+    padding-top: 50px;
   }
 
   .article_title_first {
-    font-size: 5rem;
-    margin-left: 48rem;
-    padding-left: 10rem;
+    font-size: 80px;
+    margin-left: 50%;
   }
 
   .img_article_footballer {
     position: absolute;
-    top: 53rem;
-    left: 18rem;
-    width: 36rem;
+    left: 0;
+    width: 470px;
   }
 
   .article_paragraph {
-    font-size: 1.25rem;
-    padding-left: 46rem;
-    margin-top: 1.4rem;
+    font-size: 20px;
+    padding-left: 50%;
+    margin-top: 20px;
   }
 
   .card_content_1, .card_content_2 {
-    padding: 4.1rem 12rem;
+    padding: 30px 20px 40px;
   }
 
   .article_title_2 {
-    font-size: 2.25rem;
-    padding-left: 48rem;
+    font-size: 36px;
+    margin-left: 52%;
     position: relative;
-    margin-bottom: -0.7rem;
   }
 
   .title_number {
-    font-size: 1.24rem;
-    margin-left: -1.7rem;
-    padding-right: 0.5rem; 
+    font-size: 18px;
+    margin-left: -15px;
+    padding-right: 7px; 
+    top: 12px;
   }
 
   .title_number::after {
-    width: 1.2rem;
-    height: 0.3rem;
-    top: 1.7rem;
+    width: 19px;
+    height: 4px;
+    top: 25px;
   }
 
   .img_article_basketballer {
     position: absolute;
-    top: 110rem;
-    right: 3rem;
-    width: 61rem;
+    right: 0;
+    width: 760px;
   }
 
   .article_title_second {
     font-size: 5rem;
-    margin-left: 10rem;
+    margin-left: 2%;
   }
 
   .card_content_2 .article_title_2 {
     font-size: 2.25rem;
-    margin-left: -48rem;
+    margin-left: 2%;
     margin-bottom: -0.7rem;
     position: relative;
   }
 
   .card_content_2 .article_paragraph {
     font-size: 1.25rem;
-    padding-right: 45rem;
     padding-top: 1.4rem;
-    margin-left: -48rem;
+    margin-left: -50%;
+    padding-right: 55%;
   }
 
   .aside {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  }
+
+  .aside_content-container {
+    font-size: 24px;
+    width: 69%;
+    margin-left: 6rem;
   }
 
   .aside_card {
     display: flex;
+    width: 100%;
     align-items: center;
+    justify-content: center;
   }
 
   .aside_card:nth-child(even) {
     flex-direction: row-reverse;
   }
 
-  .aside_card:nth-child(even) .aside_title-number {
-    left: 59rem;
+  .aside_card:nth-child(even) .aside_content-title {
+    margin-left: 2rem;
+  }
+
+  .aside_card:nth-child(even) .aside_content-container {
+    margin-left: 2rem;
   }
 
   .aside_content-title {
-    font-size: 5rem;
-    margin-left: -6rem;
-    margin-bottom: 4rem;
+    font-size: 80px;
+    line-height: 64px;
+    margin-bottom: 1.8rem;
+    margin-left: 6rem;
   }
 
   .aside_title-number {
-    font-size: 1.3rem;
-    top: -1.4rem;
-    right: 5rem;
-    padding: 2.8rem 3.5rem;
+    font-size: 24px;
+    right: 50px;
+    padding: 30px 43px;
+    right: 45%;
   }
 
   .aside_title-number::after {
-    margin: 2.4rem auto;
-    width: 1.4rem;
-    height: 0.3rem;
+    margin-left: auto;
+    margin-right: auto;
+    top: 70px;
+    width: 24px;
+    height: 4px;
+  }
+  
+  .be-active-img, .find-contact-img, .work-it-img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .aside_image{
+    width: 100%;
   }
 
   .aside_content {
-    width: 800px;
-    padding: 5rem 7rem;
+    width: 100%;
+    padding-top: 4.6rem;
   }
 
-  .aside_content-container {
-    font-size: 1.5rem;
-    margin-left: 3rem;
-  }
-  
   .footer {
     background-image: url(../img/game_1920.jpg);
     text-align: center;
@@ -834,4 +852,3 @@ left: 0;
     margin-bottom: 16rem;
   }
 }
-
