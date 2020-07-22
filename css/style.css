@@ -555,13 +555,14 @@ left: 0;
 
   .aside_content-title {
     font-size: 3.5rem;
-    left: -5.8rem;
+    margin-left: -5rem;
   }
 
   .aside_title-number {
+    position: relative;
     font-size: 1.7rem;
     top: -7rem;
-    left: 8.3rem;
+    left: 8rem;
     padding: 2.7rem 3rem;
   }
 
@@ -571,7 +572,7 @@ left: 0;
 
   .aside_content-container {
     font-size: 1.3rem;
-    padding: 1rem 2.4rem 5rem;
+    padding: 1rem 3rem 5rem;
   }
   
   .footer {
@@ -747,7 +748,7 @@ left: 0;
   .aside_content-container {
     font-size: 24px;
     width: 69%;
-    margin-left: 6rem;
+    margin-left: 8rem;
   }
 
   .aside_card {
@@ -773,20 +774,20 @@ left: 0;
     font-size: 80px;
     line-height: 64px;
     margin-bottom: 1.8rem;
-    margin-left: 6rem;
+    margin-left: 8rem;
   }
 
   .aside_title-number {
     font-size: 24px;
     right: 50px;
-    padding: 30px 43px;
-    right: 45%;
+    padding: 30px 50px;
+    right: 47%;
   }
 
   .aside_title-number::after {
     margin-left: auto;
     margin-right: auto;
-    top: 70px;
+    top: 77px;
     width: 24px;
     height: 4px;
   }
