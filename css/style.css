@@ -219,7 +219,7 @@ left: 0;
   background-color: #090c35;
 }
 
-@media (min-width: 320px) and (max-width: 640px) {
+@media (max-width: 640px) {
   body {
     font-size: 8px;
   }
@@ -227,7 +227,7 @@ left: 0;
   .header_container {
     background-image: url(../img/football_767.jpg);
     text-align: center;
-    padding: 2rem 1rem 6rem;
+    padding: 16px 10px 80px;
   }
 
   .logo {
@@ -240,9 +240,9 @@ left: 0;
   }
 
   .header-title {
-    font-size: 2rem;
-    width: 90%;
-    margin-top: 6rem;
+    font-size: 28px;
+    width: 80%;
+    margin-top: 90px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -254,7 +254,7 @@ left: 0;
 
   .socials_list {
     flex-wrap: wrap;
-    margin-top: 7rem;
+    margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -262,12 +262,12 @@ left: 0;
   .socials_item {
     justify-content: center;
     width: 90%;
-    height: 2rem;
-    padding-top: 0.5rem;
+    height: 34px;
+    padding-top: 10px;
   }
 
   .socials_item:nth-child(n+2) {
-    margin-top: 1rem;
+    margin-top: 10px;
   }
 
   .socials_icon {
@@ -291,14 +291,16 @@ left: 0;
 
   .img_article_footballer {
     position: absolute;
-    top: 700px;
+    width: 192px;
+    top: 585px;
     left: 33%;
   }
 
   .img_article_basketballer {
     position: absolute;
-    top: 1820px;
-    left: 5%;
+    width: 302px;
+    top: 1740px;
+    left: 10%;
   }
 
   .article_title_first, .article_title_second  {
@@ -306,22 +308,26 @@ left: 0;
     margin-left: 10%;
   }
 
+  .article_title_second {
+    margin-bottom: 320px;
+  }
+
   .article_paragraph {
     font-size: 15px;
   }
 
   .card_content_1, .card_content_2 {
-    padding: 50px 30px;
+    padding: 60px 45px 70px;
   }
 
   .card_content_1:first-child, .card_content_2:first-child {
     background-color: #fafafa;
-    margin-top: 20rem;
+    margin-top: 280px;
   }
 
   .article_title_2 {
     font-size: 23px;
-    padding-bottom: 2.5rem;
+    padding-bottom: 30px;
     position: relative;
   }
 
@@ -347,14 +353,14 @@ left: 0;
 
   .aside_content-title {
     font-size: 28px;
-    margin-left: -50px;
+    margin-left: 2rem;
   }
 
   .aside_title-number {
     font-size: 14px;
-    top: -76px;
-    left: 80px;
+    left: 2rem;
     padding: 1.8rem 2rem;
+    margin-top: -6rem;
   }
 
   .aside_title-number::after {
@@ -517,7 +523,7 @@ left: 0;
 
   .img_article_basketballer {
     position: absolute;
-    top: 80rem;
+    top: 81rem;
     right: 0;
     width: 380px;
   }
